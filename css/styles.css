@@ -1,0 +1,9 @@
+.Projects {
+    float: right;
+}
+#grad {
+    background-image: linear-gradient(grey,black);
+}
+.jumbotron {
+    font-style: italic;
+}
