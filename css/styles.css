@@ -1,4 +1,19 @@
 body {
-  background-image: linear-gradient(royal blue, navy);
+  background-image: repeating-linear-gradient(black, grey);
   text-align: center;
+  height:1250px;
+  color:yellow;
+  font-family: 'Playfair Display', serif;
+
+
 }
+li {
+  display: inline;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:grey;
+}
+
+

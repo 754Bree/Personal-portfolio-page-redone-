@@ -5,20 +5,141 @@
       <meta charset="UTF-8">
       <title>Bree's Folio</title>
       <link rel="stylesheet" href="css/styles.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+      <script src="JavaScript/scripts.js"></script>
     </head>
     <body>
         <header>
+           
             <img src="Logo.png" alt="Hooded guy with Laptop">
             <h1>Hello there!<br>Am Briana</h1>
+            <h1>Welcome to my page!</h1>
         </header>
+       
+        <div class="Home">
+            <p>Lookig for a developer?<br> Here to solve your software probems...</p>
+        </div>
+        <div class="About">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Education</h3>
+                    <div class="image">
+                        <img src="book.svg" alt="A picture of a book" style="float: inline-end;width: 100px;height: 100px;">
+                    </div>
+                    <p>Primary school: Kakamega Hill School</p>
+                    <p>Secondary school: Moi Girls Eldoret</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Roller-skating</li>
+                        <li>Football</li>
+                        <li>Basketball</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="Projects">
+            <h2>My projects</h2>
+            <div class="row">
+                <img src="cpu-fill.svg" alt="Image of a cpu" style="float: inline-start;width: 100px;height: 100px;">
+                <h4>My favorite games</h4>
+                <p>This project mainly lists out games I enjoy playing during my own free time!</p>
+                
+                <p>The project used HTML for structure!</p>
+                <p>Click here to view page<a href="https://754bree.github.io/favorite-games/" target="_blank">my favorite games</a></p>
+            </div>
+        </div>
+        <div class="Contact">
+            <div class="row">
+                <h2>Contact Details:</h2>
+
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z" />
+                    </svg>
+                    <a href="mailto:brianaodhiambo754@gmail.com" target="_blank"> brianaodhiambo754@gmail.com</a><br>
+                    <div class="col-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        +254790407613
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">
+
+            <div class="column" onclick="openTab(B1);"
+            style="background: grey;">About Me</div>
+            <div class="column" onclick="openTab(B2);"
+            style="background: grey;">Hobbies</div>
+            <div class="column" onclick="openTab(B3)"
+            style="background: grey;">Skills</div> 
+         </div>-->
+         <!--<! -- Expanding grid(hidden by default)
+         <div id="B1" class="containerTab"
+            style="display: none;background:#212121;">
+            <! --Abillity to close the container,add close button 
+            <span onclick="this.parentElement.style.display='none'"
+            class="closebtn">X</span>
+            <h2>Education</h2>
+            <p><h2>Primary</h2><br>2011-2015- <h3><strong>Kakamega Hill School</strong></h3><br><h2>Secondary</h2><br>2016-2019- <h3><strong>Moi Girls Eldoret</strong></h3></p>
+         </div>
+         <div id="B2" class="containerTab"
+            style="display:none;background: #212121;">
+            <span onclick="this.parentElement.style.display='none'"
+            class="closebtn">X</span>
+            <h2>Hobbies</h2>
+            <p>Well being a developer doesn't necesarrily entail being behind a computer screen an entire day,everyday,every year. It
+            is advisable to take breaks every once in a while to engage in whatever activities one finds best suited for them. Well
+            during my free time or breaktime, I enjoy :
+            <ul>
+                <li>Roller-skating</li>
+                <li>Pc Gaming</li>
+                <li>Football</li>
+            </ul>
+            </p>
+         </div>
+         <div id="B3" class="containerTab"
+             style="display: none;background: #212121;">
+                <span onclick="this.parentElement.style.display='none'"
+             class="closebtn">X</span>
+             <h2>Skills</h2>
+             <p>As a software Developer, I have unparalled skills in:</p>
+                <ul>
+                 <ol>
+                     <li>JavaScript</li>
+                     <li>CSS</li>
+                     <li>HTML</li>
+                 </ol>
+                </ul>
+            </div>
+        </div> -->
+    
         
-        
 
 
 
 
 
-
+     
     </body>
 
 </html>
