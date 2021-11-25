@@ -11,8 +11,11 @@
   padding-top: 5%;
 }
 .About {
-  background-image: url();
+  background-image: url(https://github.com/754Bree/Personal-portfolio-page-redone-/blob/master/Resized%20destop.jpg?raw=true);
+  filter: blur(4px);
   text-align: center;
+  color: yellow;
+
 }
 
 
