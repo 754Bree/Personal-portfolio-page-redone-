@@ -2,7 +2,7 @@ body {
   background-image: repeating-linear-gradient(Yellowgreen ,grey);
  /*background-image: Black, grey;*/
   text-align: center;
-  height:1680px;
+  height:1700px;
   color:rgb(22, 19, 19);
   font-family: 'Playfair Display', serif;
   font-size: larger;
@@ -15,5 +15,3 @@ li {
   padding-bottom: 5px;
   background-color:grey;
 }
-
-
