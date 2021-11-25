@@ -3,6 +3,7 @@
 ## Description
 
 ### This is a page containing alittle bit about myself and some programing languages I am fluent in. It also contains some of my work  and my contact details incase anyone would like to contact me.<br><strong>NOTE:</strong> The page is still subject to change.
+The page also has a projects section where it focuses on my personal work. Although not complete,feel free to check in the 'My Projects' section. 
 
 
 ### Author's Name : Briana Odhiambo
