@@ -15,3 +15,9 @@ Click <a href="https://754bree.github.io/Personal-portfolio-page-redone-/"> here
 - Read through page details.
 - Go though projects.
 - Finally, go to the contact section incase you would like to contact me.Both email and telephone details have been provided.
+
+## Requirements
+1. A stable internet connection.
+2. A device that can access the internet.
+
+#
