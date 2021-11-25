@@ -1,10 +1,9 @@
 body {
-  background-image: repeating-linear-gradient(black, grey);
+ background-image: Black, grey;
   text-align: center;
   height:1250px;
   color:yellow;
   font-family: 'Playfair Display', serif;
-
 
 }
 li {
@@ -15,5 +14,6 @@ li {
   padding-bottom: 5px;
   background-color:grey;
 }
+
 
 
