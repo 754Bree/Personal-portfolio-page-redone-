@@ -20,4 +20,11 @@ Click <a href="https://754bree.github.io/Personal-portfolio-page-redone-/"> here
 1. A stable internet connection.
 2. A device that can access the internet.
 
-#
+## Challanges
+ It was abit difficult uploading or rather creating a background for the page.
+
+ ## Credits
+ I would like to thank <strong>Moringa School </strong> for providing resorce materials used to create this page.
+
+ ## License
+ 
