@@ -1,6 +1,29 @@
-body {
+.header {
+  background-image :url(https://github.com/754Bree/Personal-portfolio-page-redone-/blob/master/my%20terminal%202.jpg?raw=true);
+  height: 450px ;
+  text-align: center;
+  padding-top: 12%;
+  color: yellow;
+}
+.Home{
+  text-align: center;
+  color: black;
+  padding-top: 5%;
+}
+.About {
+  background-image: url();
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*body {
   background-image: repeating-linear-gradient(Yellowgreen ,grey);
- /*background-image: Black, grey;*/
+ /*background-image: Black, grey;
   text-align: center;
   height:1700px;
   color:rgb(22, 19, 19);
@@ -14,4 +37,4 @@ li {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color:grey;
-}
+}*/
