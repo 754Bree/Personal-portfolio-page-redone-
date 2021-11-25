@@ -27,4 +27,5 @@ Click <a href="https://754bree.github.io/Personal-portfolio-page-redone-/"> here
  I would like to thank <strong>Moringa School </strong> for providing resorce materials used to create this page.
 
  ## License
+ This project is licensed by <strong>MIT</strong>
  
