@@ -1,23 +1,40 @@
+body{
+  text-align: center;
+  background-image: repeating-linear-gradient(rgb(97, 28, 28), black);
+   font-family: 'Playfair Display', serif;
+  font-size: medium;
+}
+
+
+
+
 .header {
   background-image :url(https://github.com/754Bree/Personal-portfolio-page-redone-/blob/master/my%20terminal%202.jpg?raw=true);
-  height: 450px ;
+  height: 400px;
   text-align: center;
-  padding-top: 12%;
+  padding-top: 10px;
   color: coral;
 }
 .Home{
   text-align: center;
-  color: black;
-  padding-top: 5%;
+  color: whitesmoke;
+  padding-top: 4px;
 }
 .About {
-  background-image: url(https://github.com/754Bree/Personal-portfolio-page-redone-/blob/master/Resized%20destop.jpg?raw=true);
-  filter: blur(4px);
+  height: 500px;
   text-align: center;
   color:coral;
 
 }
-
+.Projects {
+  padding-top: 150px;
+  padding-bottom:50px ;
+  color: whitesmoke;
+}
+.Contact {
+  padding-top: 10px;
+  color: coral;
+}
 
 
 
